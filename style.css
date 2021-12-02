@@ -1,0 +1,20 @@
+body {
+    box-sizing: border-box;
+}
+
+select {
+    font-size: 3em;
+}
+
+video {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+video.hidden {
+    opacity: 0;
+}
